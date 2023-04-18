@@ -14,8 +14,8 @@ const  createBoxes = amount => {
   for (let i= 0; i < amount; i++) {
   const div = document.createElement("div")
   boxes.prepend(div)
-  div.style.height = 30+ i*10+ "px"
-  div.style.width = 30+ i*10+ "px"
+  div.style.height = 30+ amount*10+ "px"
+  div.style.width = 30+ amount*10+ "px"
   div.style.backgroundColor = getRandomHexColor()
   div.classList.add("a")
 }}
